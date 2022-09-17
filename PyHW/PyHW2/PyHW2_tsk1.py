@@ -5,12 +5,15 @@
 # - 6782 -> 23
 # - 0,56 -> 11
 
-num = []
-n = str(input('Введите число: '))
-# numbers = int(n)
-num = list(n)
-# sum = 0
-for i in range(num):
-    sum += i
-    # i += 1
-    print(sum)
+n = input('Введите число: ')
+
+def summa(n):
+    if float(n) < 0:
+        n = float(n) * -1
+    num = 0
+    for i in str(n):
+        if i != ' , ':
+            num += int(i)
+        # i += 1
+    return num    
+print(f'{summa(n)}')
