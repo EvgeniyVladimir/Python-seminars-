@@ -47,7 +47,7 @@ print(f'текст после расшифровки: {t3}')
 #         else:
 #             count += 1
 #     return str_code
-            
+      
 # str_code = encode(my_text)
 # print(f'текст после кодировки: {str_code}')
 
