@@ -23,3 +23,4 @@ print(result)
 # n = int(input('Введите N:'))
 # new_list = fibSequence(n)
 # print(new_list)
+# необходимо дописать вторую часть
