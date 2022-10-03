@@ -9,7 +9,6 @@ def del_some_words(my_text):
 my_text = del_some_words(my_text)
 print(my_text)
 
-
 # from encodings import utf_8
 
 # with open("words.txt", encoding='utf_8') as fin:
