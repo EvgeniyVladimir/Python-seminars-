@@ -31,3 +31,4 @@ def get_new_user() -> str:
 
 def get_file_name() -> str:
     return input("Введите название файла для сохранения: ")
+

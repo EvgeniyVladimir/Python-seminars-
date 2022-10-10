@@ -39,3 +39,4 @@ def add_user(data: list, user_data: str):
     fields = ["Фамилия", "Имя", "Телефон", "Описание"]
     record = dict(zip(fields, user_data.split(',')))
     data.append(record)
+    
