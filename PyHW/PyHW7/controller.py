@@ -1,9 +1,9 @@
-from PyHW.PyHW7.view import (show_menu, print_result, get_search_name, get_search_number, get_new_user, get_file_name)
+from view import (show_menu, print_result, get_search_name, get_search_number, get_new_user, get_file_name)
 from model import write_txt, write_csv, read_csv, find_by_name, find_by_number, add_user
 
 def work_with_phonebook():
-    choice = show_menu()
-    phone_book = read_csv('phonebookk.csv')
+    choice = show_menu()     
+    phone_book = read_csv('phonebook.csv')
 
     while (choice !=6):
         if choice == 1:
@@ -12,8 +12,8 @@ def work_with_phonebook():
             name = get_search_name()
             print(find_by_name(phone_book, name))
         elif choice == 3:
-            number = get_search_name()
-            print(find_by_name(phone_book, name))
+            number = get_search_number()
+            print(find_by_number(phone_book, name))
         elif choice == 4:
             user_data = get_new_user()
             add_user(phone_book, user_data)

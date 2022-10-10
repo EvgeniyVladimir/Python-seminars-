@@ -19,7 +19,7 @@ def print_result(data: list):
 def get_search_name() -> str:
     return input("Введите Фамилию для поиска: ")
 
-def get_search_namber() -> str:
+def get_search_number() -> str:
     return input("Введите номер телефона для поиска: ")
 
 def get_new_user() -> str:
